@@ -1,0 +1,36 @@
+.banner{
+    background: url(images/banner.jpg);
+}
+.menu{
+    border-radius: 0px 160px 0px 160px;
+}
+.menu_rounded{
+    border-radius: 20px 20px 0px 0px;
+}
+.animate-scale{
+    transition: transform 0.8 ease;
+}
+.animate-scale:hover{
+    transform:scale(0.90);
+}
+/* review css start */
+.carousel-inner{
+    transition: transform 0.5s ease-in-out;
+}
+.review-carousel{
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.review-btn{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+.prevSlide{
+    left: 10px;
+}
+.nextSlide{
+    right: 10px;
+}
